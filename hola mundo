@@ -1,0 +1,14 @@
+#include <iostream>
+#include "conio.h"
+
+
+using namespace std;
+
+
+void main()
+{
+	cout<<"Hola Mundo \n"; 
+	cout<<"Soy gabriel rojas";
+	getch();
+	
+}
