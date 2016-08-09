@@ -1,0 +1,35 @@
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+   int a, b,  opcion,r;
+   cout<<"BIENVENIDOS AL MENU DE GABRIEL"<<endl;
+
+   cout << "Ingresar el primer numero"<<endl;
+   cin >> a;
+   cout << "Ingrese el segundo numero"<<endl ;
+   cin >> b;
+   do {
+     cout << endl;
+     cout << "1.- Suma" << endl;
+     cout << "2.- Resta" << endl;
+     cout << "3.- Producto" << endl;
+     cout << "4.- División" << endl;
+	 cout << "0.- Salir" << endl;
+     cout << "Elige una opción: " ;
+     cin >> opcion;
+     switch (opcion) {
+	    case 1: r = a + b; break;
+	    case 2: r = a - b; break;
+	    case 3: r = a * b; break;
+	    case 4: r = a / b; break;
+		case 0: cout << "Salir";break;
+	    default: cout << "Opcion invalida" << endl;
+     }
+     cout << "El resultado es " << r << endl;
+	 } while (opcion != 0);
+     getch();
+}
