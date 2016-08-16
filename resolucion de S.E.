@@ -1,0 +1,18 @@
+include<iostream>
+#include"conio.h"
+using namespace std;
+
+void main(){
+	int a,b,c,d,e,f;
+	float x,y;
+	cout<<"Introducir las variables en orden alfabetica para hallar X y Y";
+	cin>>a;
+	cin>>b;
+	cin>>c;
+	cin>>d;
+	cin>>e;
+	cin>>f;
+	x=(c-(b*y))/a;
+	y=((a*b)-(d*c))/((a*e)-(d*b));
+			cout<<"Los resultados son :\n"<<"Y:"<<y<<" X:"<<x;
+			getch();}
