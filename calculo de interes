@@ -1,0 +1,15 @@
+#include<iostream>
+#include"conio.h"
+using namespace std;
+
+void main(){
+	float tasa,c;float i;int dias;
+	cout<<"introducir tasa";
+	cin>>tasa;
+	cout<<"introducir capital";
+	cin>>c;
+	cout<<"introducir cantidad de dias";
+	cin>>dias;
+	i=c*(tasa/100)*(dias/365);
+	cout<<"El interes simple es"<<i;
+	getch();}
