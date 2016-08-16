@@ -1,0 +1,16 @@
+#include<iostream>
+#include "conio.h"
+using namespace std;
+
+void main(){
+	int vect[10],i,s=0;float p;
+	cout<<"introducir los numeros\n";
+	
+		for(i=0;i<3;i++){
+			cin>>vect[i];
+			s=s+vect[i];}
+		p=s/3;
+		cout<<"el promedio es\n"<<p;
+		getch();
+}
+
