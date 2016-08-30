@@ -1,0 +1,62 @@
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+using namespace std;
+
+
+
+
+void escribir(int n);
+
+
+
+void main()
+{int n,a,b;
+
+
+
+do{
+cout<<"intoducir el numero \n";
+cin>>n;
+if(n>30){
+	cout<<"el numero tiene que ser menor a 11\n";}
+}
+while(n>100);
+
+ escribir(n);
+ system("pause");
+getch;
+}
+
+void escribir(int n){
+
+	if(n==1){
+		cout<<"UNO";
+	}
+	else if(n==2){
+		cout<<"DOS";
+	}
+	else if(n==3){
+		cout<<"TRES";
+	}
+else if(n==4){
+	cout<<"CUATRO";
+}
+else if(n==5){
+	cout<<"CINCO";
+}
+else if(n==6){
+	cout<<"SEIS";
+}
+else if(n==7){
+	cout<<"SIETE";
+}
+else if(n==8){
+	cout<<"OCHO";
+}
+else if(n==9){
+	cout<<"NUEVE";
+}
+else if(n==10){
+	cout<<"DIEZ";}
+}
