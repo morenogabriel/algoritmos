@@ -11,15 +11,15 @@ void escribir(int n);
 
 
 void main()
-{int n,a,b;
+{int n;
 
 
 
 do{
 cout<<"intoducir el numero \n";
 cin>>n;
-if(n>30){
-	cout<<"el numero tiene que ser menor a 11\n";}
+if(n>100){
+	cout<<"el numero tiene que ser menor a 15\n";}
 }
 while(n>100);
 
@@ -31,32 +31,55 @@ getch;
 void escribir(int n){
 
 	if(n==1){
-		cout<<"UNO";
+		cout<<"UNO\n";
 	}
 	else if(n==2){
-		cout<<"DOS";
+		cout<<"DOS\n";
 	}
 	else if(n==3){
-		cout<<"TRES";
+		cout<<"TRES\n";
 	}
 else if(n==4){
-	cout<<"CUATRO";
+	cout<<"CUATRO\n";
 }
 else if(n==5){
-	cout<<"CINCO";
+	cout<<"CINCO\n";
 }
 else if(n==6){
-	cout<<"SEIS";
+	cout<<"SEIS\n";
 }
 else if(n==7){
-	cout<<"SIETE";
+	cout<<"SIETE\n";
 }
 else if(n==8){
-	cout<<"OCHO";
+	cout<<"OCHO\n";
 }
 else if(n==9){
-	cout<<"NUEVE";
+	cout<<"NUEVE\n";
 }
 else if(n==10){
-	cout<<"DIEZ";}
+	cout<<"DIEZ\n";
+}
+else if(n==11){
+	cout<<"ONCE\n";}
+else if(n==12){
+	cout<<"DOCE\n";}
+else if(n==13){
+	cout<<"TRECE\n";}
+else if(n==14){
+	cout<<"CATORCE\n";}
+else if(n==15){
+	cout<<"QUINCE\n";}
+else if(n==16){
+	cout<<"dieciseis\n";}
+else if(n==17){
+	cout<<"diecisiete\n";}
+else if(n==18){
+	cout<<"dieciocho\n";}
+else if(n==19){
+	cout<<"diecinueve\n";}
+else if(n==20){
+	cout<<"veinte\n";}
+
+
 }
