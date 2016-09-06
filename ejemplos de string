@@ -1,0 +1,40 @@
+// Ejemplostring.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <string>
+
+using namespace std;
+
+void main()
+{ string nombre,nombre2;
+getline(cin,nombre);
+getline(cin,nombre2);
+//ejemplo de comparacion
+if(nombre.compare(nombre2)==0)
+	cout<<"SON IGUALES"<<endl;
+else
+	if(nombre.compare(nombre2)==1)
+		cout<<"ES MAYOR"<<endl;
+	else
+		cout<<"ES MENOR"<<endl;
+
+// Ejemplo de swap
+nombre.swap(nombre2);
+cout<<nombre<<endl;
+cout<<nombre2<<endl;
+//ejemplo de find
+if(nombre.find(' '))
+	cout<<"existe espacio";
+// Ejemplo de at
+for (int i=0;i<nombre.length();i++)
+	cout<<nombre.at(i)<<endl;
+// ejemplo de substr
+cout<<nombre.substr(2,5);
+getch();
+}
+
+
+
